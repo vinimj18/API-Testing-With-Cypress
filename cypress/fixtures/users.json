@@ -1,0 +1,30 @@
+{
+  "login": {
+    "name": "Jennifer Aniston",
+    "email": "jennian@gmail.com",
+    "password": "pwd123"
+  },
+  "inv_password": {
+    "email": "jennian@gmail.com",
+    "password": "123456"
+  },
+  "email_not_found": {
+    "email": "404@gmail.com",
+    "password": "pwd123"
+  },
+  "create_user": {
+    "name": "Fernando Papito",
+    "email": "papito@yahoo.com",
+    "password": "pwd123"
+  },
+  "dup_email": {
+    "name": "Bruna Barbara",
+    "email": "bb@gmail.com",
+    "password": "bbbo123"
+  },
+  "required": {
+    "name": "Brunina",
+    "email": "bb10@gmail.com",
+    "password": "pwd123"
+  }
+}

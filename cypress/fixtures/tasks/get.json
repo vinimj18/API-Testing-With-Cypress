@@ -1,0 +1,44 @@
+{
+  "list": {
+    "user": {
+      "name": "Charles Xavier",
+      "email": "xavier@xmen.com",
+      "password": "pwd123"
+    },
+    "tasks": [
+      {
+        "name": "S7udy astronomy",
+        "tags": ["Universe", "Space"]
+      },
+      {
+        "name": "S7udy Cypress",
+        "tags": ["cypress", "JavaScript", "node.js"]
+      },
+      {
+        "name": "S7udy JS",
+        "tags": ["JavaScript"]
+      }
+    ]
+  },
+  "unique": {
+    "user": {
+      "name": "Tony Stark",
+      "email": "tony@stark.com",
+      "password": "pwd123"
+    },
+    "task": {
+      "name": "Build Mark87",
+      "tags": ["ark", "nanotech", "friday"]
+    }
+  },
+  "not_found": {
+    "user": {
+      "name": "Bruce Banner",
+      "email": "hulk@stark.com",
+      "password": "pwd123"
+    },
+    "task": {
+      "name": "SMASH!"
+    }
+  }
+}

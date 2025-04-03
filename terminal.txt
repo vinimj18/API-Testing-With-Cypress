@@ -1,0 +1,11 @@
+cd /c/Vinicius/Programming/Cypress/QAx/mark85/api
+npm run dev
+
+cd /c/Vinicius/Programming/Cypress/QAx/mark85/web
+npm run dev
+
+cd /c/Vinicius/Programming/Cypress/QAx/mark85/mail
+npm run dev
+
+cd /c/Vinicius/Programming/Cypress/QAx/projects/mark85-cypress-api
+npx cypress open
