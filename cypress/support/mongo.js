@@ -1,7 +1,7 @@
 const { MongoClient } = require("mongodb");
+require("dotenv").config();
 
-const mongoUri =
-  "mongodb+srv://vinimj18:xperience@cluster0.apbfw.mongodb.net/markdb?retryWrites=true&w=majority&appName=Cluster0";
+const mongoUri = process.env.MONGO_URI;
 
 const client = new MongoClient(mongoUri);
 

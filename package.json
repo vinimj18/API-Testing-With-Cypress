@@ -16,10 +16,13 @@
   "author": "Vinicius Justen",
   "license": "ISC",
   "devDependencies": {
+    "allure-commandline": "^2.33.0",
     "cypress": "^14.2.0",
-    "cypress-plugin-api": "^2.11.2"
+    "cypress-plugin-api": "^2.11.2",
+    "dotenv": "^16.4.7"
   },
   "dependencies": {
+    "@shelex/cypress-allure-plugin": "^2.41.0",
     "mongodb": "^6.15.0"
   }
 }
