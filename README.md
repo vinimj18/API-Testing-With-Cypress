@@ -29,12 +29,17 @@ API-Testing-With-Cypress/
 │
 ├── cypress/
 │ ├── e2e/ # Test specifications for users and tasks
+│ │ ├── tasks
+│ │ │ ├── delete.cy.js
+│ │ │ ├── get.cy.js
+│ │ │ ├── post.cy.js
+│ │ │ └── put.cy.js
 │ │ ├── users.cy.js
-│ │ └── tasks.cy.js
+│ │ └── sessions.cy.js
 │ ├── fixtures/ # JSON test data
 │ └── support/ # Custom commands and setup
-│ ├── commands.js
-│ └── e2e.js
+│   ├── commands
+│   └── e2e.js
 │
 ├── cypress.config.js # Cypress config file
 ├── package.json # Project dependencies and scripts
